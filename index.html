@@ -10,6 +10,36 @@
     <title>Garage Sale</title>
 </head>
 <body> 
+    <!-- modal box -->
+    <input type="checkbox" id="show-hide-forms" hidden>
+    <div class="forms-wrapper">
+        <label for="show-hide-forms" class="x-btn">&#10005;</label>
+        <input type="checkbox" id="show-form" hidden>
+        <div class="show-btn-wrapper">
+            <label for="show-form" class="show-form-btn show-signup-form"> Sign Up</label>
+            <label for="show-form" class="show-form-btn show-login-form"> Log In</label>
+        </div>
+        <form action="" class="signup-form">
+            <h3 class="form-heading">Sign Up</h3>
+            <div class="fullname-inputs-wrapper">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Second Name">
+            </div>
+            <input type="text" class="form-input" placeholder="Username">
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="SIGN UP" class="form-btn">
+        </form>
+
+        <form action="" class="login-form">
+            <h3 class="form-heading">Log In</h3>
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="LOG IN" class="form-btn">
+        </form>
+    </div>
+    <!-- end of modal box -->
+
     <div class="container">
         <!-- nav bar -->
         <ul class="social-icons">
@@ -33,8 +63,8 @@
         <nav class="first-nav">
             <ul class="first-nav-list">
                 <li class="first-nav-item">
-                    <a href="" class="first-nav-link">
-                    <i class="fas fa-sign-in-alt">Sign Up / Log In</i></a>
+                    <a href="" class="first-nav-link"><label for="show-hide-forms">
+                    <i class="fas fa-sign-in-alt">Sign Up / Log In</label></i></a>
                 </li>
                 <li class="first-nav-item">
                     <a href="" class="first-nav-link">
@@ -162,6 +192,95 @@
             </div>
         </section>
         <!-- end of banner -->
+
+        <!-- day offer -->
+        <section class="day-offer">
+            <img src="images/day-offer-img-one.jpg" alt="" class="day-offer-img-one">
+            <h1 class="day-offer-heading">Day Offer</h1>
+            <p class="day-offer-paragraph">Feel better with new furniture</p>
+            <button class="day-offer-btn">Shop Now</button>
+            <img src="images/day-offer-img-two.jpg" class="day-offer-img-two" alt="">
+        </section>
+        <!-- end of day offer -->
+        
+        <!-- BestSelling furniture -->
+        <section class="bestselling-furniture">
+            <h1 class="bestselling-furniture-header">
+                Bestselling Furniture
+            </h1>
+            <div class="bestselling-furniture-cards">
+                <div class="bestselling-furniture-card">
+                    <img src="images/bestsellig-furniture-kitchen.jpg" class="bestselling-furniture-img" alt="">
+                    <h2 class="bestselling-furniture-heading">Kitchen</h2>
+                    <p class="bestselling-furniture-paragraph">price: & 15,000</p>
+                    <button class="bestselling-furniture-btn">Buy Now</button>
+                </div>
+                <div class="bestselling-furniture-card">
+                    <img src="images/bestsellig-furniture-wardrobe.jpg" class="bestselling-furniture-img" alt="">
+                    <h2 class="bestselling-furniture-heading">Wardrobe</h2>
+                    <p class="bestselling-furniture-paragraph">price: & 10,000</p>
+                    <button class="bestselling-furniture-btn">Buy Now</button>
+                </div>
+                <div class="bestselling-furniture-card">
+                    <img src="images/bestsellig-furniture-sofa.jpg" class="bestselling-furniture-img" alt="">
+                    <h2 class="bestselling-furniture-heading">Sofa</h2>
+                    <p class="bestselling-furniture-paragraph">price: & 1,500</p>
+                    <button class="bestselling-furniture-btn">Buy Now</button>
+                </div>
+                <div class="bestselling-furniture-card">
+                    <img src="images/bestsellig-furniture-table.jpg" class="bestselling-furniture-img" alt="">
+                    <h2 class="bestselling-furniture-heading">Table</h2>
+                    <p class="bestselling-furniture-paragraph">price: & 3,500</p>
+                    <button class="bestselling-furniture-btn">Buy Now</button>
+                </div>
+                <div class="bestselling-furniture-card">
+                    <img src="images/bestsellig-furniture-bed.jpg" class="bestselling-furniture-img" alt="">
+                    <h2 class="bestselling-furniture-heading">Bed</h2>
+                    <p class="bestselling-furniture-paragraph">price: & 1,500</p>
+                    <button class="bestselling-furniture-btn">Buy Now</button>
+                </div>
+                <div class="bestselling-furniture-card">
+                    <img src="images/bestsellig-furniture-chairs.jpg" class="bestselling-furniture-img" alt="">
+                    <h2 class="bestselling-furniture-heading">Chairs</h2>
+                    <p class="bestselling-furniture-paragraph">price: & 1,000</p>
+                    <button class="bestselling-furniture-btn">Buy Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- end of BestSelling furniture -->
+
+        <!-- gallery -->
+        <section class="gallery">
+            <img src="images/gallery-img-1.jpeg" class="gallery-img gallery-img-1" alt="">
+            <img src="images/gallery-img-2.jpeg" class="gallery-img gallery-img-2" alt="">
+            <img src="images/gallery-img-3.jpeg" class="gallery-img gallery-img-3" alt="">
+            <img src="images/gallery-img-4.jpeg" class="gallery-img gallery-img-4" alt="">
+            <img src="images/gallery-img-5.jpeg" class="gallery-img gallery-img-5" alt="">
+            <img src="images/gallery-img-6.jpeg" class="gallery-img gallery-img-6" alt="">
+            <img src="images/gallery-img-7.jpeg" class="gallery-img gallery-img-7" alt="">
+            <img src="images/gallery-img-8.jpeg" class="gallery-img gallery-img-8" alt="">
+            <img src="images/gallery-img-9.jpeg" class="gallery-img gallery-img-9" alt="">
+            <img src="images/gallery-img-10.jpeg" class="gallery-img gallery-img-10" alt="">
+            <img src="images/gallery-img-11.jpeg" class="gallery-img gallery-img-11" alt="">
+            <img src="images/gallery-img-12.jpeg" class="gallery-img gallery-img-12" alt="">
+        </section>
+        <!-- end gallery -->
+        <!-- contact -->
+        <section class="contact">
+            <h1 class="contact-heading">Join us and be in the know</h1>
+            <form action="" class="contact-form">
+                <input type="text" class="contact-input" placeholder="Enter email address">
+                <input type="submit" class="contact-btn" value="Sign Up">
+            </form>
+        </section>
+        <!-- end of contact -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <p>&copy; CodeAndCreate. All rights reserved</p>
+        </footer>
+        <!-- end of footer -->
+
     </div>
 </body>
 </html>
